@@ -1,7 +1,7 @@
 
 # github-compare
 
-  Compare git branches in the GitHub UI.
+  Compare git branches in the GitHub UI, instead of plain old boring `git diff`.
 
 ## Example
 
