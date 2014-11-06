@@ -1,0 +1,21 @@
+{
+  "name": "github-compare",
+  "version": "0.0.0",
+  "description": "Compare git branches in the GitHub UI",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "micnews/github-compare",
+  "devDependencies": {
+    "tape": "*"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "github-repo-from-config": "^1.0.0",
+    "open": "0.0.5",
+    "resolve-git-branch": "^0.1.1"
+  },
+  "bin": {
+    "github-compare": "bin/compare.js"
+  }
+}
